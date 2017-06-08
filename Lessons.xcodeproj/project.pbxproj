@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* LessonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LessonsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28C3AD8A0F43EF2300507BA6 /* Lessons.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* Lessons.xcdatamodel */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		5701A5CA128BCC85009C2B88 /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = 5701A5C8128BCC85009C2B88 /* Help.png */; };
+		5701A5CB128BCC85009C2B88 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 5701A5C9128BCC85009C2B88 /* Time.png */; };
+		5701A604128BD9AB009C2B88 /* SurveySummary.png in Resources */ = {isa = PBXBuildFile; fileRef = 5701A603128BD9AB009C2B88 /* SurveySummary.png */; };
+		572488ED1172ED85004B7618 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 572488EC1172ED85004B7618 /* Icon.png */; };
+		573E918511660DDA00961099 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E918411660DDA00961099 /* Event.m */; };
+		5744C7B51163267300826B53 /* MovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744C7B41163267300826B53 /* MovieView.m */; };
+		5752D95C1285763E00FFE108 /* 1. Programming Methodology Lecture 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9441285763E00FFE108 /* 1. Programming Methodology Lecture 1.plist */; };
+		5752D95D1285763E00FFE108 /* 15. iPhone Device APIs; Location, Accelerometer & Camera; Battery Life & Power Management (February 23, 2010).plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9451285763E00FFE108 /* 15. iPhone Device APIs; Location, Accelerometer & Camera; Battery Life & Power Management (February 23, 2010).plist */; };
+		5752D95E1285763E00FFE108 /* 18. Unit Testing; Fun with Objective-C; Localization (March 4, 2010).plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9461285763E00FFE108 /* 18. Unit Testing; Fun with Objective-C; Localization (March 4, 2010).plist */; };
+		5752D95F1285763E00FFE108 /* 23 Lecture 23_ Stock market simulation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9471285763E00FFE108 /* 23 Lecture 23_ Stock market simulation.plist */; };
+		5752D9601285763E00FFE108 /* 27 027 Hydrogen part 3 Eigenfunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9481285763E00FFE108 /* 27 027 Hydrogen part 3 Eigenfunctions.plist */; };
+		5752D9611285763E00FFE108 /* 35 Lecture 35_ Farewell Special - High-energy Astrophysics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9491285763E00FFE108 /* 35 Lecture 35_ Farewell Special - High-energy Astrophysics.plist */; };
+		5752D9621285763E00FFE108 /* Anatomy of a muscle cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D94A1285763E00FFE108 /* Anatomy of a muscle cell.plist */; };
+		5752D9631285763E00FFE108 /* empty.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D94B1285763E00FFE108 /* empty.plist */; };
+		5752D9651285763E00FFE108 /* Hydrogen part 3 Eigenfunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D94D1285763E00FFE108 /* Hydrogen part 3 Eigenfunctions.plist */; };
+		5752D9661285763E00FFE108 /* Lecture 37_ Infinite series and convergence tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D94E1285763E00FFE108 /* Lecture 37_ Infinite series and convergence tests.plist */; };
+		5752D9671285763E00FFE108 /* Lecture 38_ Taylor's series.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D94F1285763E00FFE108 /* Lecture 38_ Taylor's series.plist */; };
+		5752D9681285763E00FFE108 /* Lecture 39_ Final review.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9501285763E00FFE108 /* Lecture 39_ Final review.plist */; };
+		5752D9691285763E00FFE108 /* MOV01C.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9511285763E00FFE108 /* MOV01C.plist */; };
+		5752D96A1285763E00FFE108 /* Muscle cells and the lungs.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9521285763E00FFE108 /* Muscle cells and the lungs.m4v */; };
+		5752D96B1285763E00FFE108 /* Muscle cells and the lungs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9531285763E00FFE108 /* Muscle cells and the lungs.plist */; };
+		5752D96C1285763E00FFE108 /* Normal Force.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9541285763E00FFE108 /* Normal Force.plist */; };
+		5752D96D1285763E00FFE108 /* PHY24 Lecture 2 (October 2, 2006).plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9551285763E00FFE108 /* PHY24 Lecture 2 (October 2, 2006).plist */; };
+		5752D96E1285763E00FFE108 /* pulmonarysystem_640.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9561285763E00FFE108 /* pulmonarysystem_640.plist */; };
+		5752D9701285763E00FFE108 /* Section 3.1 - Radian Measure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9581285763E00FFE108 /* Section 3.1 - Radian Measure.plist */; };
+		5752D9711285763E00FFE108 /* Student iPhone App Presentations (March 18, 2010).plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D9591285763E00FFE108 /* Student iPhone App Presentations (March 18, 2010).plist */; };
+		5752D9731285763E00FFE108 /* 授業.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5752D95B1285763E00FFE108 /* 授業.plist */; };
+		5762C778127BB963009D71DE /* Survey.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ECF63D127964890040C662 /* Survey.m */; };
+		577CEAAE1169CC8300C0323B /* TimelineMiniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 577CEAAD1169CC8300C0323B /* TimelineMiniView.m */; };
+		5783EDA513CA89CF00C2AC31 /* 授業.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5752D95A1285763E00FFE108 /* 授業.m4v */; };
+		5783EDB713CA8A9900C2AC31 /* 授業nocrop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5783EDB613CA8A9900C2AC31 /* 授業nocrop.plist */; };
+		578C3AF6116DF0FB003B2528 /* EventTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C3AF5116DF0FB003B2528 /* EventTreeView.m */; };
+		578C3B68116E045A003B2528 /* TimelineScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C3B67116E045A003B2528 /* TimelineScrollView.m */; };
+		579A4DF9115B058000DBDC16 /* TimelineEventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579A4DF7115B058000DBDC16 /* TimelineEventView.xib */; };
+		57A03554120FFD6100B8E0C7 /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A03553120FFD6100B8E0C7 /* Delete.png */; };
+		57CC96AC1288E83C00545B93 /* Hydrogen part 3 Eigenfunctions.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5752D94C1285763E00FFE108 /* Hydrogen part 3 Eigenfunctions.m4v */; };
+		57CC96C71288F03800545B93 /* Back30sec.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CC96C61288F03800545B93 /* Back30sec.png */; };
+		57CC96D3128906AB00545B93 /* SurveyCompare.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CC96D2128906AB00545B93 /* SurveyCompare.png */; };
+		57CC96D5128906F800545B93 /* SurveyBack30.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CC96D4128906F800545B93 /* SurveyBack30.png */; };
+		57CC96D91289241100545B93 /* Radian Measure.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57CC96D81289241100545B93 /* Radian Measure.mov */; };
+		57CC96E71289272C00545B93 /* Radian Measure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57CC96E61289272C00545B93 /* Radian Measure.plist */; };
+		57CC96F912892F5E00545B93 /* Fwd30sec.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CC96F812892F5E00545B93 /* Fwd30sec.png */; };
+		57ED3C4F12828E33002B711A /* QuestOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ED3C4B12828E33002B711A /* QuestOn.png */; };
+		57ED3C5112828E33002B711A /* TestOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ED3C4D12828E33002B711A /* TestOn.png */; };
+		57ED3C60128296A2002B711A /* SurveyAnnotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ED3C5C128296A2002B711A /* SurveyAnnotation.png */; };
+		57ED3C61128296A2002B711A /* SurveyContinue.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ED3C5D128296A2002B711A /* SurveyContinue.png */; };
+		57ED3C62128296A2002B711A /* SurveyDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ED3C5E128296A2002B711A /* SurveyDelete.png */; };
+		57ED3C63128296A2002B711A /* SurveyTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ED3C5F128296A2002B711A /* SurveyTime.png */; };
+		57ED3C6D12829E04002B711A /* SurveyEnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ED3C6B12829E04002B711A /* SurveyEnd.png */; };
+		57ED3C6E12829E04002B711A /* SurveyI.png in Resources */ = {isa = PBXBuildFile; fileRef = 57ED3C6C12829E04002B711A /* SurveyI.png */; };
+		57EF81D61116BCDA00A7F7E9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EF81D51116BCDA00A7F7E9 /* MediaPlayer.framework */; };
+		57EF825B111823A100A7F7E9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EF825A111823A100A7F7E9 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* LessonsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* LessonsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* Lessons.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Lessons.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Lessons_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lessons_Prefix.pch; sourceTree = "<group>"; };
+		5701A5C8128BCC85009C2B88 /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
+		5701A5C9128BCC85009C2B88 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		5701A603128BD9AB009C2B88 /* SurveySummary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveySummary.png; sourceTree = "<group>"; };
+		572488EC1172ED85004B7618 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		573E918311660DDA00961099 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		573E918411660DDA00961099 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		5744C7B31163267300826B53 /* MovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieView.h; sourceTree = "<group>"; };
+		5744C7B41163267300826B53 /* MovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieView.m; sourceTree = "<group>"; };
+		5752D9441285763E00FFE108 /* 1. Programming Methodology Lecture 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "1. Programming Methodology Lecture 1.plist"; path = "Lectures/1. Programming Methodology Lecture 1.plist"; sourceTree = "<group>"; };
+		5752D9451285763E00FFE108 /* 15. iPhone Device APIs; Location, Accelerometer & Camera; Battery Life & Power Management (February 23, 2010).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "15. iPhone Device APIs; Location, Accelerometer & Camera; Battery Life & Power Management (February 23, 2010).plist"; path = "Lectures/15. iPhone Device APIs; Location, Accelerometer & Camera; Battery Life & Power Management (February 23, 2010).plist"; sourceTree = "<group>"; };
+		5752D9461285763E00FFE108 /* 18. Unit Testing; Fun with Objective-C; Localization (March 4, 2010).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "18. Unit Testing; Fun with Objective-C; Localization (March 4, 2010).plist"; path = "Lectures/18. Unit Testing; Fun with Objective-C; Localization (March 4, 2010).plist"; sourceTree = "<group>"; };
+		5752D9471285763E00FFE108 /* 23 Lecture 23_ Stock market simulation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "23 Lecture 23_ Stock market simulation.plist"; path = "Lectures/23 Lecture 23_ Stock market simulation.plist"; sourceTree = "<group>"; };
+		5752D9481285763E00FFE108 /* 27 027 Hydrogen part 3 Eigenfunctions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "27 027 Hydrogen part 3 Eigenfunctions.plist"; path = "Lectures/27 027 Hydrogen part 3 Eigenfunctions.plist"; sourceTree = "<group>"; };
+		5752D9491285763E00FFE108 /* 35 Lecture 35_ Farewell Special - High-energy Astrophysics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "35 Lecture 35_ Farewell Special - High-energy Astrophysics.plist"; path = "Lectures/35 Lecture 35_ Farewell Special - High-energy Astrophysics.plist"; sourceTree = "<group>"; };
+		5752D94A1285763E00FFE108 /* Anatomy of a muscle cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Anatomy of a muscle cell.plist"; path = "Lectures/Anatomy of a muscle cell.plist"; sourceTree = "<group>"; };
+		5752D94B1285763E00FFE108 /* empty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = empty.plist; path = Lectures/empty.plist; sourceTree = "<group>"; };
+		5752D94C1285763E00FFE108 /* Hydrogen part 3 Eigenfunctions.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Hydrogen part 3 Eigenfunctions.m4v"; path = "Lectures/Hydrogen part 3 Eigenfunctions.m4v"; sourceTree = "<group>"; };
+		5752D94D1285763E00FFE108 /* Hydrogen part 3 Eigenfunctions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Hydrogen part 3 Eigenfunctions.plist"; path = "Lectures/Hydrogen part 3 Eigenfunctions.plist"; sourceTree = "<group>"; };
+		5752D94E1285763E00FFE108 /* Lecture 37_ Infinite series and convergence tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Lecture 37_ Infinite series and convergence tests.plist"; path = "Lectures/Lecture 37_ Infinite series and convergence tests.plist"; sourceTree = "<group>"; };
+		5752D94F1285763E00FFE108 /* Lecture 38_ Taylor's series.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Lecture 38_ Taylor's series.plist"; path = "Lectures/Lecture 38_ Taylor's series.plist"; sourceTree = "<group>"; };
+		5752D9501285763E00FFE108 /* Lecture 39_ Final review.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Lecture 39_ Final review.plist"; path = "Lectures/Lecture 39_ Final review.plist"; sourceTree = "<group>"; };
+		5752D9511285763E00FFE108 /* MOV01C.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MOV01C.plist; path = Lectures/MOV01C.plist; sourceTree = "<group>"; };
+		5752D9521285763E00FFE108 /* Muscle cells and the lungs.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Muscle cells and the lungs.m4v"; path = "Lectures/Muscle cells and the lungs.m4v"; sourceTree = "<group>"; };
+		5752D9531285763E00FFE108 /* Muscle cells and the lungs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Muscle cells and the lungs.plist"; path = "Lectures/Muscle cells and the lungs.plist"; sourceTree = "<group>"; };
+		5752D9541285763E00FFE108 /* Normal Force.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Normal Force.plist"; path = "Lectures/Normal Force.plist"; sourceTree = "<group>"; };
+		5752D9551285763E00FFE108 /* PHY24 Lecture 2 (October 2, 2006).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PHY24 Lecture 2 (October 2, 2006).plist"; path = "Lectures/PHY24 Lecture 2 (October 2, 2006).plist"; sourceTree = "<group>"; };
+		5752D9561285763E00FFE108 /* pulmonarysystem_640.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = pulmonarysystem_640.plist; path = Lectures/pulmonarysystem_640.plist; sourceTree = "<group>"; };
+		5752D9581285763E00FFE108 /* Section 3.1 - Radian Measure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Section 3.1 - Radian Measure.plist"; path = "Lectures/Section 3.1 - Radian Measure.plist"; sourceTree = "<group>"; };
+		5752D9591285763E00FFE108 /* Student iPhone App Presentations (March 18, 2010).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Student iPhone App Presentations (March 18, 2010).plist"; path = "Lectures/Student iPhone App Presentations (March 18, 2010).plist"; sourceTree = "<group>"; };
+		5752D95A1285763E00FFE108 /* 授業.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = "授業.m4v"; path = "Lectures/授業.m4v"; sourceTree = "<group>"; };
+		5752D95B1285763E00FFE108 /* 授業.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "授業.plist"; path = "Lectures/授業.plist"; sourceTree = "<group>"; };
+		577CEAAC1169CC8300C0323B /* TimelineMiniView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineMiniView.h; sourceTree = "<group>"; };
+		577CEAAD1169CC8300C0323B /* TimelineMiniView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineMiniView.m; sourceTree = "<group>"; };
+		5783EDB613CA8A9900C2AC31 /* 授業nocrop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "授業nocrop.plist"; path = "Lectures/授業nocrop.plist"; sourceTree = "<group>"; };
+		578C3AF4116DF0FB003B2528 /* EventTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTreeView.h; sourceTree = "<group>"; };
+		578C3AF5116DF0FB003B2528 /* EventTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTreeView.m; sourceTree = "<group>"; };
+		578C3B66116E045A003B2528 /* TimelineScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineScrollView.h; sourceTree = "<group>"; };
+		578C3B67116E045A003B2528 /* TimelineScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineScrollView.m; sourceTree = "<group>"; };
+		579A4DF7115B058000DBDC16 /* TimelineEventView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimelineEventView.xib; sourceTree = "<group>"; };
+		57A03553120FFD6100B8E0C7 /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete.png; sourceTree = "<group>"; };
+		57CC96C61288F03800545B93 /* Back30sec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back30sec.png; sourceTree = "<group>"; };
+		57CC96D2128906AB00545B93 /* SurveyCompare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyCompare.png; sourceTree = "<group>"; };
+		57CC96D4128906F800545B93 /* SurveyBack30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyBack30.png; sourceTree = "<group>"; };
+		57CC96D81289241100545B93 /* Radian Measure.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "Radian Measure.mov"; path = "Lectures/Radian Measure.mov"; sourceTree = "<group>"; };
+		57CC96E61289272C00545B93 /* Radian Measure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Radian Measure.plist"; path = "Lectures/Radian Measure.plist"; sourceTree = "<group>"; };
+		57CC96F812892F5E00545B93 /* Fwd30sec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fwd30sec.png; sourceTree = "<group>"; };
+		57ECF63C127964890040C662 /* Survey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Survey.h; sourceTree = "<group>"; };
+		57ECF63D127964890040C662 /* Survey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Survey.m; sourceTree = "<group>"; };
+		57ED3C4B12828E33002B711A /* QuestOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuestOn.png; sourceTree = "<group>"; };
+		57ED3C4D12828E33002B711A /* TestOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestOn.png; sourceTree = "<group>"; };
+		57ED3C5C128296A2002B711A /* SurveyAnnotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyAnnotation.png; sourceTree = "<group>"; };
+		57ED3C5D128296A2002B711A /* SurveyContinue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyContinue.png; sourceTree = "<group>"; };
+		57ED3C5E128296A2002B711A /* SurveyDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyDelete.png; sourceTree = "<group>"; };
+		57ED3C5F128296A2002B711A /* SurveyTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyTime.png; sourceTree = "<group>"; };
+		57ED3C6B12829E04002B711A /* SurveyEnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyEnd.png; sourceTree = "<group>"; };
+		57ED3C6C12829E04002B711A /* SurveyI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurveyI.png; sourceTree = "<group>"; };
+		57EF81D51116BCDA00A7F7E9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		57EF8259111823A100A7F7E9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		57EF825A111823A100A7F7E9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Lessons-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Lessons-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				57EF81D61116BCDA00A7F7E9 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* LessonsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* LessonsAppDelegate.m */,
+				57ECF63C127964890040C662 /* Survey.h */,
+				57ECF63D127964890040C662 /* Survey.m */,
+				57EF8259111823A100A7F7E9 /* MainViewController.h */,
+				57EF825A111823A100A7F7E9 /* MainViewController.m */,
+				573E918311660DDA00961099 /* Event.h */,
+				573E918411660DDA00961099 /* Event.m */,
+				578C3AF4116DF0FB003B2528 /* EventTreeView.h */,
+				578C3AF5116DF0FB003B2528 /* EventTreeView.m */,
+				5744C7B31163267300826B53 /* MovieView.h */,
+				5744C7B41163267300826B53 /* MovieView.m */,
+				577CEAAC1169CC8300C0323B /* TimelineMiniView.h */,
+				577CEAAD1169CC8300C0323B /* TimelineMiniView.m */,
+				578C3B66116E045A003B2528 /* TimelineScrollView.h */,
+				578C3B67116E045A003B2528 /* TimelineScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Lessons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Lessons_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				57EF82181118184400A7F7E9 /* Lectures */,
+				28C3AD890F43EF2300507BA6 /* Lessons.xcdatamodel */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				579A4DF7115B058000DBDC16 /* TimelineEventView.xib */,
+				572488EC1172ED85004B7618 /* Icon.png */,
+				5701A5C8128BCC85009C2B88 /* Help.png */,
+				5701A5C9128BCC85009C2B88 /* Time.png */,
+				57A03553120FFD6100B8E0C7 /* Delete.png */,
+				57CC96C61288F03800545B93 /* Back30sec.png */,
+				57CC96F812892F5E00545B93 /* Fwd30sec.png */,
+				57ED3C4B12828E33002B711A /* QuestOn.png */,
+				57ED3C4D12828E33002B711A /* TestOn.png */,
+				57ED3C5C128296A2002B711A /* SurveyAnnotation.png */,
+				5701A603128BD9AB009C2B88 /* SurveySummary.png */,
+				57ED3C5D128296A2002B711A /* SurveyContinue.png */,
+				57ED3C5E128296A2002B711A /* SurveyDelete.png */,
+				57CC96D4128906F800545B93 /* SurveyBack30.png */,
+				57ED3C5F128296A2002B711A /* SurveyTime.png */,
+				57CC96D2128906AB00545B93 /* SurveyCompare.png */,
+				57ED3C6B12829E04002B711A /* SurveyEnd.png */,
+				57ED3C6C12829E04002B711A /* SurveyI.png */,
+				8D1107310486CEB800E47090 /* Lessons-Info.plist */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57EF81D51116BCDA00A7F7E9 /* MediaPlayer.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57EF82181118184400A7F7E9 /* Lectures */ = {
+			isa = PBXGroup;
+			children = (
+				57CC96D81289241100545B93 /* Radian Measure.mov */,
+				57CC96E61289272C00545B93 /* Radian Measure.plist */,
+				5752D9441285763E00FFE108 /* 1. Programming Methodology Lecture 1.plist */,
+				5752D9451285763E00FFE108 /* 15. iPhone Device APIs; Location, Accelerometer & Camera; Battery Life & Power Management (February 23, 2010).plist */,
+				5752D9461285763E00FFE108 /* 18. Unit Testing; Fun with Objective-C; Localization (March 4, 2010).plist */,
+				5752D9471285763E00FFE108 /* 23 Lecture 23_ Stock market simulation.plist */,
+				5752D9481285763E00FFE108 /* 27 027 Hydrogen part 3 Eigenfunctions.plist */,
+				5752D9491285763E00FFE108 /* 35 Lecture 35_ Farewell Special - High-energy Astrophysics.plist */,
+				5752D94A1285763E00FFE108 /* Anatomy of a muscle cell.plist */,
+				5752D94B1285763E00FFE108 /* empty.plist */,
+				5752D94C1285763E00FFE108 /* Hydrogen part 3 Eigenfunctions.m4v */,
+				5752D94D1285763E00FFE108 /* Hydrogen part 3 Eigenfunctions.plist */,
+				5752D94E1285763E00FFE108 /* Lecture 37_ Infinite series and convergence tests.plist */,
+				5752D94F1285763E00FFE108 /* Lecture 38_ Taylor's series.plist */,
+				5752D9501285763E00FFE108 /* Lecture 39_ Final review.plist */,
+				5752D9511285763E00FFE108 /* MOV01C.plist */,
+				5752D9521285763E00FFE108 /* Muscle cells and the lungs.m4v */,
+				5752D9531285763E00FFE108 /* Muscle cells and the lungs.plist */,
+				5752D9541285763E00FFE108 /* Normal Force.plist */,
+				5752D9551285763E00FFE108 /* PHY24 Lecture 2 (October 2, 2006).plist */,
+				5752D9561285763E00FFE108 /* pulmonarysystem_640.plist */,
+				5752D9581285763E00FFE108 /* Section 3.1 - Radian Measure.plist */,
+				5752D9591285763E00FFE108 /* Student iPhone App Presentations (March 18, 2010).plist */,
+				5752D95A1285763E00FFE108 /* 授業.m4v */,
+				5752D95B1285763E00FFE108 /* 授業.plist */,
+				5783EDB613CA8A9900C2AC31 /* 授業nocrop.plist */,
+			);
+			name = Lectures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Lessons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Lessons" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lessons;
+			productName = Lessons;
+			productReference = 1D6058910D05DD3D006BFB54 /* Lessons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Lessons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Lessons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				579A4DF9115B058000DBDC16 /* TimelineEventView.xib in Resources */,
+				572488ED1172ED85004B7618 /* Icon.png in Resources */,
+				57A03554120FFD6100B8E0C7 /* Delete.png in Resources */,
+				57ED3C4F12828E33002B711A /* QuestOn.png in Resources */,
+				57ED3C5112828E33002B711A /* TestOn.png in Resources */,
+				57ED3C60128296A2002B711A /* SurveyAnnotation.png in Resources */,
+				57ED3C61128296A2002B711A /* SurveyContinue.png in Resources */,
+				57ED3C62128296A2002B711A /* SurveyDelete.png in Resources */,
+				57ED3C63128296A2002B711A /* SurveyTime.png in Resources */,
+				57ED3C6D12829E04002B711A /* SurveyEnd.png in Resources */,
+				57ED3C6E12829E04002B711A /* SurveyI.png in Resources */,
+				5752D95C1285763E00FFE108 /* 1. Programming Methodology Lecture 1.plist in Resources */,
+				5752D95D1285763E00FFE108 /* 15. iPhone Device APIs; Location, Accelerometer & Camera; Battery Life & Power Management (February 23, 2010).plist in Resources */,
+				5752D95E1285763E00FFE108 /* 18. Unit Testing; Fun with Objective-C; Localization (March 4, 2010).plist in Resources */,
+				5752D95F1285763E00FFE108 /* 23 Lecture 23_ Stock market simulation.plist in Resources */,
+				5752D9601285763E00FFE108 /* 27 027 Hydrogen part 3 Eigenfunctions.plist in Resources */,
+				5752D9611285763E00FFE108 /* 35 Lecture 35_ Farewell Special - High-energy Astrophysics.plist in Resources */,
+				5752D9621285763E00FFE108 /* Anatomy of a muscle cell.plist in Resources */,
+				5752D9631285763E00FFE108 /* empty.plist in Resources */,
+				5752D9651285763E00FFE108 /* Hydrogen part 3 Eigenfunctions.plist in Resources */,
+				5752D9661285763E00FFE108 /* Lecture 37_ Infinite series and convergence tests.plist in Resources */,
+				5752D9671285763E00FFE108 /* Lecture 38_ Taylor's series.plist in Resources */,
+				5752D9681285763E00FFE108 /* Lecture 39_ Final review.plist in Resources */,
+				5752D9691285763E00FFE108 /* MOV01C.plist in Resources */,
+				5752D96A1285763E00FFE108 /* Muscle cells and the lungs.m4v in Resources */,
+				5752D96B1285763E00FFE108 /* Muscle cells and the lungs.plist in Resources */,
+				5752D96C1285763E00FFE108 /* Normal Force.plist in Resources */,
+				5752D96D1285763E00FFE108 /* PHY24 Lecture 2 (October 2, 2006).plist in Resources */,
+				5752D96E1285763E00FFE108 /* pulmonarysystem_640.plist in Resources */,
+				5752D9701285763E00FFE108 /* Section 3.1 - Radian Measure.plist in Resources */,
+				5752D9711285763E00FFE108 /* Student iPhone App Presentations (March 18, 2010).plist in Resources */,
+				5752D9731285763E00FFE108 /* 授業.plist in Resources */,
+				57CC96AC1288E83C00545B93 /* Hydrogen part 3 Eigenfunctions.m4v in Resources */,
+				57CC96C71288F03800545B93 /* Back30sec.png in Resources */,
+				57CC96D3128906AB00545B93 /* SurveyCompare.png in Resources */,
+				57CC96D5128906F800545B93 /* SurveyBack30.png in Resources */,
+				57CC96D91289241100545B93 /* Radian Measure.mov in Resources */,
+				57CC96E71289272C00545B93 /* Radian Measure.plist in Resources */,
+				57CC96F912892F5E00545B93 /* Fwd30sec.png in Resources */,
+				5701A5CA128BCC85009C2B88 /* Help.png in Resources */,
+				5701A5CB128BCC85009C2B88 /* Time.png in Resources */,
+				5701A604128BD9AB009C2B88 /* SurveySummary.png in Resources */,
+				5783EDA513CA89CF00C2AC31 /* 授業.m4v in Resources */,
+				5783EDB713CA8A9900C2AC31 /* 授業nocrop.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* LessonsAppDelegate.m in Sources */,
+				28C3AD8A0F43EF2300507BA6 /* Lessons.xcdatamodel in Sources */,
+				57EF825B111823A100A7F7E9 /* MainViewController.m in Sources */,
+				5744C7B51163267300826B53 /* MovieView.m in Sources */,
+				573E918511660DDA00961099 /* Event.m in Sources */,
+				577CEAAE1169CC8300C0323B /* TimelineMiniView.m in Sources */,
+				578C3AF6116DF0FB003B2528 /* EventTreeView.m in Sources */,
+				578C3B68116E045A003B2528 /* TimelineScrollView.m in Sources */,
+				5762C778127BB963009D71DE /* Survey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lessons_Prefix.pch;
+				INFOPLIST_FILE = "Lessons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = Lessons;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Lessons_Prefix.pch;
+				INFOPLIST_FILE = "Lessons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = Lessons;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = "~/Downloads/build";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = "~/Downloads/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Lessons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Lessons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
