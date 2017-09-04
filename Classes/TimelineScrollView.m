@@ -2,8 +2,8 @@
 //  TimelineScrollView.m
 //  Lessons
 //
-//  Created by 利辺羅 on 10/04/08.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Ernesto Rivera on 10/04/08.
+//  Copyright PTEz 2010. All rights reserved.
 //
 
 #import "TimelineScrollView.h"

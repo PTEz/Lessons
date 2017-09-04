@@ -2,8 +2,8 @@
 //  Survey.m
 //  Lessons
 //
-//  Created by 利辺羅 on 10/10/28.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Ernesto Rivera on 10/10/28.
+//  Copyright PTEz 2010. All rights reserved.
 //
 
 #import "Survey.h"

@@ -2,8 +2,8 @@
 //  LessonsAppDelegate.h
 //  Lessons
 //
-//  Created by 利辺羅 on 10/02/01.
-//  Copyright Apple Inc 2010. All rights reserved.
+//  Created by Ernesto Rivera on 10/02/01.
+//  Copyright PTEz 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
