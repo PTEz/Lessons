@@ -21,8 +21,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {    
 	// Insert main view to the application window
-	mainViewController.view.frame = [UIScreen mainScreen].applicationFrame;
-	[window addSubview:mainViewController.view];
+    mainViewController.view.frame = [UIScreen mainScreen].applicationFrame;
+	[window setRootViewController:mainViewController];
     [window makeKeyAndVisible];
 	
 	// Do survey
