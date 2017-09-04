@@ -29,8 +29,8 @@
 	//mainViewController.modalController.view.bounds = CGRectMake(0, 0, 540, 620);
 	//[mainViewController presentModalView:self];
 	
-	//[mainViewController loadMovie:@"授業HD.m4v" plist:@"授業.plist" originalSize:CGSizeMake(1280, 720)];
-	//[mainViewController loadMovie:@"Muscle cells and the lungs.m4v" plist:@"Muscle cells and the lungs.plist"];
+//	[mainViewController loadMovie:@"授業.m4v" plist:@"授業.plist" originalSize:CGSizeMake(1280, 720)];
+//	[mainViewController loadMovie:@"Muscle cells and the lungs.m4v" plist:@"Muscle cells and the lungs.plist"];
 	[mainViewController enableEditing:YES];
 	
 	return YES;
